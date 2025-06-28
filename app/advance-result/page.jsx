@@ -614,7 +614,7 @@ const renderPayPalButton = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
+                      {/* <div>
                         <select
                           name="carYear"
                           className={`w-full p-3 rounded ${errors.carYear ? 'border-2 border-red-500' : 'bg-white'}`}
@@ -628,9 +628,9 @@ const renderPayPalButton = () => {
                           ))}
                         </select>
                         {errors.carYear && <p className="text-red-600 text-sm mt-1">{errors.carYear}</p>}
-                      </div>
+                      </div> */}
 
-                      <div>
+                      {/* <div>
                         <input
                           type="text"
                           name="mileage"
@@ -641,10 +641,10 @@ const renderPayPalButton = () => {
                           onChange={handleInputChange}
                         />
                         {errors.mileage && <p className="text-red-600 text-sm mt-1">{errors.mileage}</p>}
-                      </div>
+                      </div> */}
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <select
                           name="fuelType"
@@ -678,7 +678,7 @@ const renderPayPalButton = () => {
                         </select>
                         {errors.transmission && <p className="text-red-600 text-sm mt-1">{errors.transmission}</p>}
                       </div>
-                    </div>
+                    </div> */}
 
                     <div>
                       <input
@@ -692,7 +692,7 @@ const renderPayPalButton = () => {
                       />
                       {errors.color && <p className="text-red-600 text-sm mt-1">{errors.color}</p>}
                     </div>
-                    <div className="mb-4">
+                    {/* <div className="mb-4">
                       <label className="block mb-1 font-medium">Upload Car Photos (Up to 5)</label>
                       <label className="inline-block px-4 py-2 bg-blue-600 text-white rounded cursor-pointer hover:bg-blue-700">
                         Choose Photos
@@ -716,9 +716,9 @@ const renderPayPalButton = () => {
                       {errors.carPhotos && (
                         <p className="text-red-600 text-sm mt-1">{errors.carPhotos}</p>
                       )}
-                    </div>
+                    </div> */}
 
-                    <div className="mb-4">
+                    {/* <div className="mb-4">
                       <label className="block mb-1 font-medium">Upload Engine Video</label>
                       <label className="inline-block px-4 py-2 bg-green-600 text-white rounded cursor-pointer hover:bg-green-700">
                         Choose Video
@@ -741,7 +741,7 @@ const renderPayPalButton = () => {
                       {errors.engineVideo && (
                         <p className="text-red-600 text-sm mt-1">{errors.engineVideo}</p>
                       )}
-                    </div>
+                    </div> */}
 
 
                   </div>
